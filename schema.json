@@ -1,0 +1,169 @@
+{
+  "format_version": "1.0",
+  "provider_schemas": {
+    "registry.terraform.io/kubernetes/kubernetes": {
+      "provider": {
+        "version": 0,
+        "attributes": {},
+        "block_types": {}
+      },
+      "resource_schemas": {
+        "kubernetes_namespace": {
+          "version": 1,
+          "description": "",
+          "attributes": {
+            "metadata": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "id": {
+              "type": "string",
+              "computed": true,
+              "description": ""
+            }
+          },
+          "block_types": {}
+        },
+        "kubernetes_deployment": {
+          "version": 1,
+          "description": "",
+          "attributes": {
+            "metadata": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "spec": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "id": {
+              "type": "string",
+              "computed": true,
+              "description": ""
+            }
+          },
+          "block_types": {}
+        },
+        "kubernetes_service": {
+          "version": 1,
+          "description": "",
+          "attributes": {
+            "metadata": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "spec": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "id": {
+              "type": "string",
+              "computed": true,
+              "description": ""
+            }
+          },
+          "block_types": {}
+        },
+        "kubernetes_secret": {
+          "version": 1,
+          "description": "",
+          "attributes": {
+            "metadata": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "data": {
+              "type": "string",
+              "optional": true,
+              "description": ""
+            },
+            "type": {
+              "type": "string",
+              "optional": true,
+              "description": ""
+            },
+            "id": {
+              "type": "string",
+              "computed": true,
+              "description": ""
+            }
+          },
+          "block_types": {}
+        },
+        "kubernetes_config_map": {
+          "version": 1,
+          "description": "",
+          "attributes": {
+            "metadata": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "data": {
+              "type": "string",
+              "optional": true,
+              "description": ""
+            },
+            "id": {
+              "type": "string",
+              "computed": true,
+              "description": ""
+            }
+          },
+          "block_types": {}
+        },
+        "kubernetes_persistent_volume_claim": {
+          "version": 1,
+          "description": "",
+          "attributes": {
+            "metadata": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "spec": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "id": {
+              "type": "string",
+              "computed": true,
+              "description": ""
+            }
+          },
+          "block_types": {}
+        },
+        "kubernetes_ingress_v1": {
+          "version": 1,
+          "description": "",
+          "attributes": {
+            "metadata": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "spec": {
+              "type": "string",
+              "required": true,
+              "description": ""
+            },
+            "id": {
+              "type": "string",
+              "computed": true,
+              "description": ""
+            }
+          },
+          "block_types": {}
+        }
+      },
+      "data_source_schemas": {}
+    }
+  }
+}
