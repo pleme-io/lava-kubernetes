@@ -6,7 +6,7 @@ license = "MIT"
 name = "lava-kubernetes"
 readme = "README.md"
 repository = "https://github.com/pleme-io/lava-kubernetes"
-version = "0.1.0"
+version = "0.1.1"
 
 [lints.clippy]
 pedantic = "warn"
