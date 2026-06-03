@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "cargo_lock_sha256": "64f77f30f0ce74deae89c057b006067debed09f21080ad3d1e7836f41c8c71d9",
+  "target_resolves": {
+    "base": {
+      "lava-kubernetes-0.1.2": {
+        "runtime_dependencies": [],
+        "build_dependencies": [],
+        "features": []
+      }
+    },
+    "targets": {
+      "aarch64-apple-darwin": {
+        "overrides": {}
+      },
+      "x86_64-apple-darwin": {
+        "overrides": {}
+      },
+      "x86_64-unknown-linux-gnu": {
+        "overrides": {}
+      },
+      "x86_64-unknown-linux-musl": {
+        "overrides": {}
+      },
+      "aarch64-unknown-linux-gnu": {
+        "overrides": {}
+      },
+      "aarch64-unknown-linux-musl": {
+        "overrides": {}
+      }
+    }
+  },
+  "per_crate": {
+    "lava-kubernetes-0.1.2": {
+      "edition": "2024",
+      "lib_target": {
+        "name": "lava_kubernetes",
+        "path": "src/lib.rs"
+      }
+    }
+  },
+  "git_nar_sha256": {},
+  "flake_metadata": {}
+}
