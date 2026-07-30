@@ -6,5 +6,4 @@
   :doc
   ""
   :attributes
-  ((:id :type string :computed #t :doc "")
-    (:metadata :type string :required #t :doc "")))
+  ((:id :type string :computed #t :doc "") (:metadata :type string :required #t :doc "")))
